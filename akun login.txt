@@ -1,0 +1,14 @@
+sudah disiapkan seeder untuk akun login tinggal jalankan
+php artisan db:seed --class=userSeeder  
+
+jika sudah dijalankan seedernya tinggal masukan
+email : admin123@gmail.com
+password : admin123
+
+atau jika sudah mengimport databasenya bisa gunakan yang dibawah ini
+email: admin@gmail.com
+password : admin12345
+
+atau jika ingin membuat akun sendiri bisa saja tinggal tambahkan /register di url
+seperti http://127.0.0.1:8000/register
+saya sengaja tidak membuat halaman menuju ke register karena aplikasi ini dikhususkan untuk admin jadi tidak sembarang orang bisa akses.
